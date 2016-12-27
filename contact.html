@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Computer Vision and Robotics Research Group, University of Alberta</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="themes/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="themes/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="themes/css/main.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="lisize"><a href="https://www.ualberta.ca/" target="_blank" class="lisize"><img src="themes/images/ext/UA-COLOUR.png" class="imgsize" ></a></li>
+        <li ><a href="index.html" class="lisize"><span class="glyphicon glyphicon-home homesize"></span>   Home</a></li>
+        <li><a href="CV.html" class="lisize"><img src="themes/images/cv/eye.png" class="imgsize" >   Computer Vision</a></li>
+        <li><a href="MI.html" class="lisize"><img src="themes/images/mi/mi2.png" class="imgsize"  >   Medical Imaging</a></li>
+        <li><a href="RO.html" class="lisize"><img src="themes/images/robotics/robotics.png"  class="imgsize" >   Robotics</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li  class="active lisize"><a href="contact.html" class="lisize"><img src="themes/images/ext/CS-icon.png"  class="imgsize" >   Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="jumbotron newlogosize">
+  <div class="container text-center" >
+          <p style="font-size:32px;">Computer Vision and Robotics Research Group</p>
+          <p  style="font-size:16px;margin-top:-20px;">Computing Science, University of Alberta</p>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>Welcome!</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li><a href="news.html">Lab News</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="publication.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="awards.html">Awards & Funding</a></li>
+        <li><a href="equipments.html">Equipments</a></li>
+        <li><a href="links.html">Links</a></li>
+      </ul><br>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>CONTACT INFO</small></h4>
+      <hr>
+        <div class="row peopleBlock">
+        <h3 class="peopleTitle">Welcome to visit us!</h3>
+        <div class="peopleContent" >
+           <div class="row">
+               <div style="font-size:16px; line-height:32px;" class="col-sm-6">
+            Address: <br />
+            CSC 3-01 (Vision Lab), CSC 3-53 (Robotics Lab)<br />
+            Compputing Science Center, University of Alberta<br />
+            Edmonton, AB, Canada, T6G2E8
+               </div>
+               <div class="col-sm-6">
+                   <img src="themes/images/robotics/r1.png" style="height:140px;" />
+               </div>
+          </div>
+          <div style="width:100%;height:400px;" id="map">
+          </div>
+          <script>
+              function initMap() {
+                  var Computing_Science_Center = { lat: 53.526783, lng: -113.527145 };
+                  var map = new google.maps.Map(document.getElementById('map'), {
+                      zoom: 18,
+                      center: Computing_Science_Center
+                  });
+                  var marker = new google.maps.Marker({
+                      position: Computing_Science_Center,
+                      map: map
+                  });
+              }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgjcQ1vABaXheaOFzsn08FqwAbo4vCPuE&callback=initMap">
+    </script>
+        </div>
+       </div>
+
+   
+    </div>
+  </div>
+</div>
+          
+<footer class="container-fluid">
+  <p style="text-align:center;">Copyright © 2017 Computer Vision and Robotics Research Group, 
+      <a href="https://www.ualberta.ca/computing-science" target="_blank" style="color:white"> Department of Computing Science,</a>
+       University of Alberta, Edmonton , Alberta, Canada T6G 2E8</p>
+</footer>
+
+</body>
+</html>

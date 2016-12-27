@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "themes", "themes", "{42AD86C0-AF84-43DA-9083-F6EBD96E86FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{C89126F6-DD61-41C2-884F-BAC6C7F2E021}"
+	ProjectSection(SolutionItems) = preProject
+		themes\css\bootstrap-theme.css = themes\css\bootstrap-theme.css
+		themes\css\bootstrap-theme.css.map = themes\css\bootstrap-theme.css.map
+		themes\css\bootstrap-theme.min.css = themes\css\bootstrap-theme.min.css
+		themes\css\bootstrap-theme.min.css.map = themes\css\bootstrap-theme.min.css.map
+		themes\css\bootstrap.css = themes\css\bootstrap.css
+		themes\css\bootstrap.css.map = themes\css\bootstrap.css.map
+		themes\css\bootstrap.min.css = themes\css\bootstrap.min.css
+		themes\css\bootstrap.min.css.map = themes\css\bootstrap.min.css.map
+		themes\css\main.css = themes\css\main.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{A4622E65-7A90-4A5D-8A61-E8EABDA3F62A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{7BC2C298-93F4-4416-A3BB-4DE468DD0E71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{8CDF35A4-521E-4296-BAA3-6B74EECD43D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cv", "cv", "{2AE82C36-BD30-4C13-9BC1-C610076AA856}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "robotics", "robotics", "{174801B7-88FD-4264-A802-18708977D300}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mi", "mi", "{F519A919-7B66-42E0-8C6B-2DE37C249FA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "news", "news", "{31C134E4-F819-4467-814A-16330943816D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ext", "ext", "{5AB4FDF9-0BE4-4F19-94F6-22A7DBE089A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{03B5AAE3-619D-44FE-AE7A-AAF2310FA2FF}"
+	ProjectSection(SolutionItems) = preProject
+		awards.html = awards.html
+		contact.html = contact.html
+		CV.html = CV.html
+		equipments.html = equipments.html
+		index.html = index.html
+		labTemplate.html = labTemplate.html
+		links.html = links.html
+		MI.html = MI.html
+		news.html = news.html
+		people.html = people.html
+		publication.html = publication.html
+		RO.html = RO.html
+		teaching.html = teaching.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42AD86C0-AF84-43DA-9083-F6EBD96E86FD} = {03B5AAE3-619D-44FE-AE7A-AAF2310FA2FF}
+		{A4622E65-7A90-4A5D-8A61-E8EABDA3F62A} = {42AD86C0-AF84-43DA-9083-F6EBD96E86FD}
+		{7BC2C298-93F4-4416-A3BB-4DE468DD0E71} = {42AD86C0-AF84-43DA-9083-F6EBD96E86FD}
+		{8CDF35A4-521E-4296-BAA3-6B74EECD43D6} = {42AD86C0-AF84-43DA-9083-F6EBD96E86FD}
+		{C89126F6-DD61-41C2-884F-BAC6C7F2E021} = {42AD86C0-AF84-43DA-9083-F6EBD96E86FD}
+		{2AE82C36-BD30-4C13-9BC1-C610076AA856} = {8CDF35A4-521E-4296-BAA3-6B74EECD43D6}
+		{174801B7-88FD-4264-A802-18708977D300} = {8CDF35A4-521E-4296-BAA3-6B74EECD43D6}
+		{F519A919-7B66-42E0-8C6B-2DE37C249FA6} = {8CDF35A4-521E-4296-BAA3-6B74EECD43D6}
+		{31C134E4-F819-4467-814A-16330943816D} = {8CDF35A4-521E-4296-BAA3-6B74EECD43D6}
+		{5AB4FDF9-0BE4-4F19-94F6-22A7DBE089A3} = {8CDF35A4-521E-4296-BAA3-6B74EECD43D6}
+	EndGlobalSection
+EndGlobal
